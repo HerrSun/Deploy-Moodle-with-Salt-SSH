@@ -19,7 +19,7 @@ Before starting the deployment, make sure you have the following prerequisites:
  `salt-ssh '*' state.apply --roster-file roster`
 
 ## Build block in moodle with form
-In the "blocks" folder, you will find two subfolders: "<new_block_name>." and "<new_block_name>._form." The "<new_block_name>." folder contains the code for a block that displays Google search results for "Moodle Block." The "<new_block_name>._form" folder contains the code for a block with a form that allows users to input keywords and then view the corresponding Google search results.
+In the "blocks" folder, you will find two subfolders: `google_search` and `google_search_form` The `google_search`  folder contains the code for a block that displays Google search results for "Moodle Block." The `google_search_form` folder contains the code for a block with a form that allows users to input keywords and then view the corresponding Google search results.
 
 ### Workflow for Building a New Block
 1. Install pluginskel
