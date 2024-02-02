@@ -19,7 +19,8 @@ Before starting the deployment, make sure you have the following prerequisites:
  `salt-ssh '*' state.apply --roster-file roster`
 
 ## Build block in moodle with form
-In the "blocks" folder, you will find two subfolders: `google_search` and `google_search_form` The `google_search`  folder contains the code for a block that displays Google search results for "Moodle Block." The `google_search_form` folder contains the code for a block with a form that allows users to input keywords and then view the corresponding Google search results.
+In the "blocks" folder, you will find two subfolders: `google_search` and `google_search_form` The `google_search`  folder contains the code for a block that displays Google search results for "Moodle Block." The `google_search_form` folder contains the code for a block with a form that allows users to input keywords and then view the corresponding Google search results.   
+To use this feature, kindly incorporate your own Google Search API and Search Engine ID within the `blocks/google_search/block_google_search.php` and `block_google_search_form.php`.
 
 ### Workflow for Building a New Block
 1. Install pluginskel
