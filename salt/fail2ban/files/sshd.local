@@ -1,0 +1,9 @@
+{% set maxretry = pillar['fail2ban']['sshd']['maxretry'] %}
+{% set bantime = pillar['fail2ban']['sshd']['bantime']  %}
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = {{ maxretry }}
+bantime = {{ bantime }}

@@ -1,0 +1,25 @@
+.block_google_search_form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.block_google_search_form li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.block_google_search_form a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.block_google_search_form a:hover {
+    text-decoration: underline;
+}
+
+.block_google_search_form .snippet {
+    color: #555;
+}
+

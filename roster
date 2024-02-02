@@ -1,0 +1,4 @@
+<vm>:
+  host: <ip_address>
+  user: <user>
+  priv: </path/to/private/key>
